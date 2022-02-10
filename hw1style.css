@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
+
+body {
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+.navbar ul {
+    list-style: = none;
+    width: 500px;
+    margin: 0 auto;
+    padding : 0;
+    background-color : black;
+    text-align : center;
+
+}
+
+.navbar li {
+    width: 150 px;
+    background-color: #000;
+    border: 1px solid red;
+    padding: 10px;
+    display: inline-block;
+    line-height: 40px
