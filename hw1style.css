@@ -121,6 +121,92 @@ body {
     height: 290px;
 }
 
+#image2{
+    position: absolute;
+    left: 59px;
+    top: 1244px;
+    width: 289px;
+    height: 465px;
+}
+
+#pagetitle1{
+    left:420px;
+    top: 1267px;
+    width: 274px;
+    height: 30px;
+}
+
+#subp2{
+    position: absolute;
+    left: 420px;
+    top: 1316px;
+    width: 275px;
+    height: 43px;
+}
+
+#benefit4{
+    position: absolute;
+    left: 495px;
+    top: 1390px;
+    width: 110px;
+    height: 31px;
+}
+
+#sub-benefit4{
+    position: absolute;
+    left: 495px;
+    top: 1423px;
+    width: 183px;
+    height: 55px;
+}
+
+#benefit5{
+    position: absolute;
+    left: 495px;
+    top:1492px;
+    width: 180px;
+    height: 62px;
+}
+
+#sub-benefit5{
+    position: absolute;
+    left: 495px;
+    top: 1524px;
+    width: 183px;
+    height: 54px;
+}
+
+#benefit6{
+    position: absolute;
+    left: 495px;
+    top: 1591px;
+    width: 122px;
+    height: 48px;
+}
+
+#sub-benefit6{
+    position: absolute;
+    left: 495px;
+    top: 1616px;
+    width: 183px;
+    height:56px;
+}
+
+#speechicon{
+    left: 420px;
+    top: 1423px;
+}
+
+#staricon2{
+    left: 420px;
+    top: 1524px;
+}
+
+#ShieldIcon{
+    left: 420px;
+    top: 1616px;
+}
+
 
 .subparagraph{
     font-size: 13px;
@@ -162,4 +248,10 @@ body {
     position: absolute;
     width: 53px;
     height: 53px;
+}
+
+.pagetitle{
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
 }
