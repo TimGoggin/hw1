@@ -19,6 +19,7 @@ body {
     height: 74px;
     width: 267px;
     font-size: 30px;
+    font-weight: bold;
 
 }
 
@@ -377,7 +378,7 @@ body {
 	height: 100px;
 	padding: 4px 8px 4px 8px;
 	background: #ffffff;
-	color: #c0c0c0;
+	color: black;
 	border-color: #232323;
 	border-width: 1px;
 	border-style: solid;
@@ -395,7 +396,7 @@ body {
 	height: 200px;
 	padding: 4px 8px 4px 8px;
 	background: #ffffff;
-	color: #c0c0c0;
+	color: black;
 	border-color: #232323;
 	border-width: 1px;
 	border-style: solid;
