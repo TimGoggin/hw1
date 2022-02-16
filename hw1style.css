@@ -305,23 +305,25 @@ body {
     position: absolute;
     left: 100px;
     top: 2311px;
+    width: 600px;
+    height: 400px;
 }
 
 #basic{
     position: absolute;
-    left: 50px;
+    left: 0px;
     top: 0px;
 }
 
 #crescendo{
     position: absolute;
-    left: 250px;
+    left: 200px;
     top: 0px;
 }
 
 #fortissimo{
     position: absolute;
-    left: 450px;
+    left: 400px;
     top: 0px;
 }
 
