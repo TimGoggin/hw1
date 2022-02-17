@@ -2,7 +2,87 @@
 
 body {
     font-family: 'Noto Sans SC', sans-serif;
+    font-size: 25px;
 }
+
+/**Classes **/
+
+.benefits{
+    font-weight: bold;
+}
+
+
+.navbar ul {
+    
+    list-style: none;
+    width: 670px;
+    left: 190px;
+    top:19px;
+    height: 37px;
+    margin: 0 auto;
+    padding : 0;
+    background-color :white;
+    text-align : center;
+
+}
+
+.navbar li {
+    width: 300 px;
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px;
+    display: inline-block;
+    line-height: 40px;
+}
+
+.icon{
+    position: absolute;
+    width: 53px;
+    height: 53px;
+}
+
+.pagetitle{
+    font-weight: bold;
+    position: absolute;
+}
+
+.text-area {
+	width: 180px;
+    height: 200px;
+	padding: 4px 8px 4px 8px;
+	background: #ffffff;
+	color: black;
+	border-color: #232323;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px 3px 3px 3px;
+	font-family: "Helvetica";
+	font-weight: 400;
+	line-height: 1.3;
+	text-align: left;
+}
+
+
+.text-area2 {
+	width: 180px;
+	height: 400px;
+	padding: 4px 8px 4px 8px;
+	background: #ffffff;
+	color: black;
+	border-color: #232323;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px 3px 3px 3px;
+	font-family: "Helvetica";
+	font-weight: 400;
+	line-height: 1.3;
+	text-align: left;
+}
+
+/**Ids **/
+
+
+/**Top of page**/
 
 #titleHeader{
     position: absolute;
@@ -18,7 +98,6 @@ body {
     top: 126px;
     height: 74px;
     width: 267px;
-    font-size: 30px;
     font-weight: bold;
 
 }
@@ -33,8 +112,8 @@ body {
 
 #emailform{
     position: absolute;
-    left: 59px;
-    top:299px;
+    left: 800px;
+    top:104px;
     width: 213px;
     height: 32;
 }
@@ -48,6 +127,7 @@ body {
 
 }
 
+/**First Benefits Section**/
 #cdicon{
     position: absolute;
     left: 153px;
@@ -69,7 +149,7 @@ body {
 #benefit1{
     position: absolute;
     left: 60px;
-    top: 521px;
+    top: 500px;
     width: 224px;
     height: 19px;
 }
@@ -77,7 +157,7 @@ body {
 #benefit2{
     position: absolute;
     left:309px;
-    top:521px;
+    top:500px;
     width: 224px;
     height: 19px;
 }
@@ -85,7 +165,7 @@ body {
 #benefit3{
     position: absolute;
     left: 556px;
-    top: 521px;
+    top: 500px;
     width: 224px;
     height: 19px;
 }
@@ -116,23 +196,25 @@ body {
 
 #equalizerimage{
     position: absolute;
-    left:226px;
+    left:300px;
     top:800px;
     width: 388px;
     height: 290px;
 }
 
+/**Second Benefits section**/
+
 #image2{
     position: absolute;
     left: 59px;
-    top: 1244px;
+    top: 1390px;
     width: 289px;
     height: 465px;
 }
 
 #pagetitle1{
     left:420px;
-    top: 1267px;
+    top: 1140px;
     width: 274px;
     height: 30px;
 }
@@ -140,7 +222,7 @@ body {
 #subp2{
     position: absolute;
     left: 420px;
-    top: 1316px;
+    top: 1190px;
     width: 275px;
     height: 43px;
 }
@@ -148,15 +230,15 @@ body {
 #benefit4{
     position: absolute;
     left: 495px;
-    top: 1390px;
+    top: 1270px;
     width: 110px;
     height: 31px;
 }
 
 #sub-benefit4{
     position: absolute;
-    left: 495px;
-    top: 1423px;
+    left: 675px;
+    top: 1270px;
     width: 183px;
     height: 55px;
 }
@@ -164,15 +246,15 @@ body {
 #benefit5{
     position: absolute;
     left: 495px;
-    top:1492px;
+    top: 1530px;
     width: 180px;
     height: 62px;
 }
 
 #sub-benefit5{
     position: absolute;
-    left: 495px;
-    top: 1524px;
+    left: 675px;
+    top: 1530px;
     width: 183px;
     height: 54px;
 }
@@ -180,38 +262,39 @@ body {
 #benefit6{
     position: absolute;
     left: 495px;
-    top: 1591px;
+    top: 1790px;
     width: 122px;
     height: 48px;
 }
 
 #sub-benefit6{
     position: absolute;
-    left: 495px;
-    top: 1616px;
+    left: 675px;
+    top: 1790px;
     width: 183px;
     height:56px;
 }
 
 #speechicon{
     left: 420px;
-    top: 1423px;
+    top: 1310px;
 }
 
 #staricon2{
     left: 420px;
-    top: 1524px;
+    top: 1570px;
 }
 
 #ShieldIcon{
     left: 420px;
-    top: 1616px;
+    top: 1830px;
 }
 
+/**Testemonials**/
 #pagetitle2{
     position: absolute;
     left: 245px;
-    top: 1817px;
+    top: 2017px;
     width: 351px;
     height: 30px;
 }
@@ -219,7 +302,7 @@ body {
 #subp3{
     position: absolute;
     left: 245px;
-    top: 1868px;
+    top: 2068px;
     width: 365px;
     height: 64px;
 }
@@ -227,87 +310,46 @@ body {
 #testemonial1{
     position: absolute;
     left: 26px;
-    top: 1925px;
-    width: 180px;
-    height: 100px;
+    top: 2135px;
 }
 
 #testemonial2{
     position: absolute;
     left: 317px;
-    top: 1925px;
-    width: 180px;
-    height: 100px;
+    top: 2135px;
 }
 #testemonial3{
     position: absolute;
     left: 608px;
-    top: 1925px;
-    width: 180px;
-    height: 100px;
+    top: 2135px;
 }
 
+/** Pricing**/
 #pagetitle3{
     position: absolute;
-    left: 245px;
-    top: 2152px;
+    left: 300px;
+    top: 2362px;
     width: 351px;
     height: 30px;
 }
 
 #subp4{
     position: absolute;
-    left: 185px;
-    top: 2202px;
+    left: 300px;
+    top: 2412px;
     width: 469px;
     height: 34px;
-}
-
-#faqtitle{
-    position: absolute;
-    left: 600px;
-    top: 50px;
-    width: 327px;
-    height: 37px;
-}
-
-#faqproduct{
-    left: 30px;
-    top: 93px;
-    width: 90px;
-    height: 131px;
-}
-
-#faqpricing{
-    left: 30px;
-    top: 341px;
-    width: 80px;
-    height: 37px;
-}
-
-#faq1{
-    position: absolute;
-    left: 20px;
-    top: 136px;
-    height: 291px;
-    width: 400px;
-}
-
-#faq2{
-    position: absolute;
-    left: 20px;
-    top: 378px;
-    width: 400px;
-    height: 127px;
 }
 
 #pricingframe{
     position: absolute;
     left: 100px;
-    top: 2311px;
+    top: 2520px;
     width: 600px;
     height: 400px;
 }
+
+/**pricing.html**/
 
 #basic{
     position: absolute;
@@ -327,85 +369,45 @@ body {
     top: 0px;
 }
 
-.subparagraph{
-    font-size: 13px;
-}
+/** FAQs **/
 
-.benefits{
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.subbenefit{
-    font-size: 12px;
-}
-
-.navbar ul {
-    
-    list-style: none;
-    width: 373px;
-    left: 190px;
-    top:19px;
+#faqtitle{
+    position: absolute;
+    left: 600px;
+    top: 50px;
+    width: 327px;
     height: 37px;
-    margin: 0 auto;
-    padding : 0;
-    background-color :white;
-    text-align : center;
-
 }
 
-.navbar li {
-    width: 150 px;
-    background-color: white;
-    border: 1px solid white;
-    padding: 10px;
-    display: inline-block;
-    line-height: 40px;
+#faqproduct{
+    left: 30px;
+    top: 100px;
+    width: 90px;
+    height: 131px;
 }
 
-.icon{
+#faqpricing{
+    left: 30px;
+    top: 700px;
+    width: 80px;
+    height: 37px;
+}
+
+#faq1{
     position: absolute;
-    width: 53px;
-    height: 53px;
+    left: 20px;
+    top: 150px;
+    height: 291px;
+    width: 400px;
 }
 
-.pagetitle{
-    font-size: 24px;
-    font-weight: bold;
+#faq2{
     position: absolute;
-}
-
-.text-area {
-	width: 180px;
-	height: 100px;
-	padding: 4px 8px 4px 8px;
-	background: #ffffff;
-	color: black;
-	border-color: #232323;
-	border-width: 1px;
-	border-style: solid;
-	border-radius: 3px 3px 3px 3px;
-	font-family: "Helvetica";
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 1.3;
-	text-align: left;
+    left: 20px;
+    top: 750px;
+    width: 400px;
+    height: 127px;
 }
 
 
-.text-area2 {
-	width: 180px;
-	height: 200px;
-	padding: 4px 8px 4px 8px;
-	background: #ffffff;
-	color: black;
-	border-color: #232323;
-	border-width: 1px;
-	border-style: solid;
-	border-radius: 3px 3px 3px 3px;
-	font-family: "Helvetica";
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 1.3;
-	text-align: left;
-}
+
